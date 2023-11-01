@@ -1,0 +1,79 @@
+body{
+margin-left: 40%;
+margin-bottom: 1%;
+background: linear-gradient(
+    rgba(255,255,255,0.1),
+    rgba(255,255,255,0.3)
+),
+url("https://cdn.wallpapersafari.com/78/73/GEUf32.jpg")
+
+}
+
+
+
+button{
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+h2{
+    box-sizing: border-box;
+    background-color:purple;
+    border-radius: 10px;
+    color: white;
+    font-weight:300;
+    font-style: normal;
+    font-stretch: expanded;
+    width: 39%;
+    text-align: center;
+}
+
+label{
+    font-weight: 200;
+}
+
+input{
+    background-position: 10px 10px;
+    height: 5vh;
+    width: 35%;
+    flex-direction: column;
+    margin-left:10px;
+    align-items: center;
+    border-radius: 5px;
+
+    border: 1px solid grey;
+
+    
+}
+
+.forminput{
+    flex-direction: column;
+}
